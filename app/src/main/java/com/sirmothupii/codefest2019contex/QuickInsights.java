@@ -6,7 +6,9 @@ import android.os.Bundle;
 public class QuickInsights extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        //codefest
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quick_insights);
     }
