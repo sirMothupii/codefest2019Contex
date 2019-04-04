@@ -41,14 +41,14 @@
         android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Customer UCN: "
-        android:textAlignment="viewStart"
+        android:text="UCN: "
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/btnContinue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtWelcome"
-        app:layout_constraintVertical_bias="0.038" />
+        app:layout_constraintVertical_bias="0.03" />
 
     <Button
         android:id="@+id/btnContinue"
