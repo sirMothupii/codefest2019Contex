@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wills">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="336dp"
+        android:layout_height="398dp"
+        android:text='The term "independent trust" or Corporate Trustee is used is where the trustee is not related t the other trustees or beneficaries. The corporate trustee ensures that there is adequate separetion betweeen control, enjoymet and benefir of the trust assets. Where there is no clear separation of control a separate entity, then a claim can also beenforce against the assests of the trust to the amount of the claim. A trust begin an \"alter ego\" trust can have a remendous effect on the overall wealth planning, that the trustees and future generations wish to protect.'
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Refer to specialist"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorError"
+        android:text="Action"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ConteX"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        style="@android:style/Widget.Material.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Wills"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="94dp" />
+</android.support.constraint.ConstraintLayout>
